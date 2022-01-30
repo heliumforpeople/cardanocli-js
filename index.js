@@ -21,8 +21,6 @@ const {
 const fetch =
   typeof window !== "undefined" ? window.fetch : require("sync-fetch");
 
-// CIAO
-
 /**
  * @typedef lovelace
  * @property {number}
