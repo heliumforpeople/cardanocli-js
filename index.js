@@ -900,8 +900,6 @@ class CardanocliJs {
 
     if (!this.protocolParametersPath) this.queryProtocolParameters();
 
-    console.log('daasdasdsd');
-
     const scriptInvalid = options.scriptInvalid ? "--script-invalid" : "";
     execSync(`${this.cliPath} transaction build-raw \
                 ${txInString} \
